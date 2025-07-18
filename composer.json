@@ -32,7 +32,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Teikun86\\AntiSpoof\\AntiSpoofServiceProvider"
+                "Teikun86\\AntiSpoof\\Providers\\AntiSpoofServiceProvider"
             ]
         }
     },
