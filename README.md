@@ -221,10 +221,14 @@ Event::listen(ShadyUserAgentDetected::class, function (ShadyUserAgentDetected $e
 ```
 
 ## Testing
+Publish the test cases:
 ```bash
-./vendor/bin/phpunit
+php artisan vendor:publish --tag=anti-spoof-tests
 ```
->  You can use Pest or PHPUnit. Test coverage includes IP spoofing and UA detection.
+Then run the artisan command to test:
+```bash
+php artisan test
+```
 
 ## Contributing
 We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) for details on our code of conduct, and the process for submitting pull requests.
