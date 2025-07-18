@@ -14,6 +14,10 @@ class AntiSpoofServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/../../config/anti-spoof.php' => config_path('anti-spoof.php'),
         ], 'anti-spoof-config');
+
+        $this->publishes([
+            __DIR__ . '/../../resources/stubs/tests/' => base_path('tests/Feature/AntiSpoof'),
+        ], 'anti-spoof-tests');
     }
 
     public function register(): void
