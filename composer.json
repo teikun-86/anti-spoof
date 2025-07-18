@@ -1,6 +1,6 @@
 {
     "name": "teikun-86/anti-spoof",
-    "version": "0.0.1-alpha0",
+    "version": "0.1.0",
     "description": "Laravel middleware to detect and prevent spoofed IPs, forged headers, and identity manipulation attempts.",
     "type": "library",
     "require": {
@@ -18,6 +18,11 @@
             "Teikun86\\AntiSpoof\\": "src/"
         }
     },
+    "autoload-dev": {
+        "psr-4": {
+            "Teikun86\\AntiSpoof\\Tests\\": "tests/"
+        }
+    },
     "authors": [
         {
             "name": "Aziz Febriyanto",
@@ -30,5 +35,14 @@
                 "Teikun86\\AntiSpoof\\AntiSpoofServiceProvider"
             ]
         }
-    }
+    },
+    "keywords": [
+        "laravel",
+        "security",
+        "spoof",
+        "middleware",
+        "anti-spoof",
+        "ip-protection",
+        "user-agent"
+    ]
 }
