@@ -28,7 +28,7 @@ class DetectSpoofing
             $spoofData = $antiSpoof->getSpoofData();
             Log::warning('[AntiSpoof] Possible spoofing detected', $spoofData);
 
-            event(new SpoofAttemptDetected(...$spoofData));
+            event(new SpoofAttemptDetected(...array_values($spoofData)));
 
             if (config('anti-spoof.block', false)) {
                 abort(403, config('anti-spoof.message', 'Access denied.'));
