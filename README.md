@@ -1,7 +1,14 @@
 # AntiSpoof — Laravel Middleware to Detect Request Spoofing
 
+<div style="justify-items: center;">
+
+![Packagist Version](https://img.shields.io/packagist/v/teikun-86/anti-spoof)
+[![CodeFactor](https://www.codefactor.io/repository/github/teikun-86/anti-spoof/badge)](https://www.codefactor.io/repository/github/teikun-86/anti-spoof)
+
+</div>
 **AntiSpoof** is a Laravel package that protects your API against spoofed IPs, forged headers, and suspicious User-Agents.  
 It’s plug-and-play, built with middleware + actions + events, and works beautifully with any Laravel-based API.
+
 
 ---
 
