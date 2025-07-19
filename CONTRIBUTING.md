@@ -9,13 +9,16 @@ This document lays out how to contribute code, report issues, suggest features, 
 
 ## 📋 Table of Contents
 
-- [Code of Conduct](#code-of-conduct)
-- [Getting Started](#getting-started)
-- [Before You Commit](#before-you-commit)
-- [How to Submit a PR](#how-to-submit-a-pr)
-- [Feature Requests](#feature-requests)
-- [Security Issues](#security-issues)
-- [License](#license)
+- [📋 Table of Contents](#-table-of-contents)
+- [🧘 Code of Conduct](#-code-of-conduct)
+- [🚀 Getting Started](#-getting-started)
+- [🧼 Before You Commit](#-before-you-commit)
+- [📬 How to Submit a PR](#-how-to-submit-a-pr)
+- [💡 Feature Requests](#-feature-requests)
+- [🐛 Found a Bug?](#-found-a-bug)
+- [🔐 Security Issues](#-security-issues)
+- [🪪 License](#-license)
+- [⚔️ Thanks, Warrior](#️-thanks-warrior)
 
 ---
 
@@ -111,7 +114,7 @@ And submit it to the [Issues page](https://github.com/teikun-86/anti-spoof/issue
 Instead, email the maintainer directly at:
 
 ```
-aziz@example.com
+azizfebriyanto12@gmail1.com
 ```
 
 or use GitHub's private vulnerability reporting (if available).
@@ -131,4 +134,4 @@ Every PR, issue, and suggestion makes this package more powerful.
 You’re part of the shield wall now — welcome aboard. ⚔️🛡️
 
 —
-Made with ❤️, caffeine, and firewalls
+Made with ❤️, caffeine, and paranoia
