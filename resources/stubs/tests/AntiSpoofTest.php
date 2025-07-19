@@ -1,5 +1,7 @@
 <?php
 
+namespace Tests\Feature\AntiSpoof;
+
 use Illuminate\Http\Request;
 use Teikun86\AntiSpoof\AntiSpoof;
 use Orchestra\Testbench\TestCase;
